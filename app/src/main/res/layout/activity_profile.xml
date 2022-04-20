@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/layoutlogo"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:src="@drawable/ateesh"
+    android:layout_margin="10dp"
+    />
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ateesh Kumar"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/layoutlogo"
+        android:padding="10dp"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91-123466677"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtName"
+        android:layout_toRightOf="@id/layoutlogo"
+        android:padding="2dp"/>
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ateesh2002@gmail.com"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/layoutlogo"
+        android:layout_below="@id/txtPhone"
+        android:padding="2dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="More Info"
+        android:layout_margin="20dp"
+        android:layout_below="@id/layoutlogo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#CE0CE3"
+        android:textColor="#FBE206"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:textStyle="italic"
+        android:background="#BBED06"/>
+</RelativeLayout>

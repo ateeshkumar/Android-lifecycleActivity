@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Layoutlogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ateesh"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/Layoutheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ateesh Kumar"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#1a237e"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:layout_below="@id/Layoutlogo"/>
+
+    <TextView
+        android:id="@+id/Layoutinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is my first App"
+        android:textSize="20sp"
+        android:textColor="#ff5722"
+        android:layout_centerInParent="true"
+        android:paddingBottom="20sp"
+        android:layout_below="@id/Layoutheader"/>
+    <TextView
+        android:id="@+id/Layoutno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+91 7355763888"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1a237e"
+        android:paddingBottom="20dp"
+        android:layout_below="@id/Layoutinfo"/>
+    <TextView
+        android:id="@+id/LayoutMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ateesh2002@gmail.com"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#1a237e"
+        android:layout_below="@id/Layoutno"/>
+    <Button
+        android:id="@+id/LAyoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Click Here"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_alignParentBottom="true"/>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Your Name"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/LayoutMail"/>
+
+</RelativeLayout>
